@@ -7,6 +7,6 @@
   - Open `_custom_module2.scss` in the same folder
   - Add `@import "./pscustom/main"`
   - Save and exit
-- Click install on OldGlory
+- Click install in OldGlory.exe
 
 ### I have no idea how you're gonna update don't ask me
