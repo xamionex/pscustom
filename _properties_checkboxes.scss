@@ -1,0 +1,8 @@
+// Styles checkbox in general tab
+.appproperties_AppProperties_1FyBL .appproperties_Checkbox_2V2nc {
+   background: var(--CheckBox-Background) !important;
+   transition: all 0.2s ease-in-out;
+   &:hover {
+      background: var(--CheckBox-Background-Hover) !important;
+   }
+}

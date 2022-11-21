@@ -1,0 +1,15 @@
+// Window background
+.DialogContent,
+.DialogContentTransition {
+   background: var(--Properties-Background-Color) !important;
+}
+
+// Sidebar background
+.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB {
+   background: var(--Properties-Sidebar-Background-Color);
+}
+
+// Background in the table of the DLCs tab
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 {
+   background: var(--DLCs-Table-Text-Background);
+}

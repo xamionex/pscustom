@@ -1,0 +1,64 @@
+/* HomeAndSearch override, to disable go into the main file and comment the import for this file out
+   ========================================================================== */
+
+.gamelisthome_Label_3O48L {
+   margin-left: auto !important;
+}
+
+.gamelisthome_Bar_3pSPl {
+   transition: all 0.2s ease-in-out;
+   box-sizing: border-box;
+   position: relative;
+   color: #c5cbd8;
+   border-radius: 2px;
+   flex: 1;
+   min-width: 0;
+   user-select: none;
+   display: flex;
+   flex-direction: row;
+   height: 32px;
+   align-content: center;
+   cursor: pointer;
+   font-size: 13px;
+   background: var(--Sidebar-Home-Button-Gradient) !important;
+   //background: linear-gradient(to bottom, #2d333c 0%, #24282f 20%) !important;
+   text-decoration: none;
+   border: var(--Sidebar-Home-Button-Border) !important;
+   &:hover {
+      border: var(--Sidebar-Home-Button-Border-Hover) !important;
+   }
+}
+
+.gamelisthome_Bar_3pSPl .gamelisthome_Icon_1ooRO svg {
+   display: block !important;
+   fill: var(--Sidebar-Home-Button-Steam-Logo) !important;
+   mask-image: var(--Sidebar-Home-Button-Steam-Logo-Gradient) !important;
+   -webkit-mask-image: var(--Sidebar-Home-Button-Steam-Logo-Gradient) !important;
+}
+
+.gamelistbar_Container_3x1Hk,
+.gamelistsearchbar_Container_20QAC,
+.gamelistdropdown_Bar_1ZS_x {
+   display: flex !important;
+}
+
+.gamelistdropdown_Bar_1ZS_x {
+   margin: 0px 0px 0px 8px !important;
+}
+
+// Download stats visible
+.downloadgraph_StatsPanel_3mdnp {
+   margin-left: auto;
+}
+
+// Sidebar search corners
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
+   border-radius: var(--CornerSearch) !important;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:hover {
+   border-radius: var(--CornerSearchHover) !important;
+}
+
+/* ========================================================================== 
+   END HomeAndSearch */

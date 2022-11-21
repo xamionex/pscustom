@@ -1,0 +1,51 @@
+/* Controller Status, This modifies Properties > Controller page
+   ========================================================================== */
+
+.DialogBody > .appproperties_SteamInputStatus_2H4Ly:before {
+   display: flex;
+   font-size: 10px;
+   background: linear-gradient(
+      to bottom,
+      var(--Enabled-Controller-Status-Text) 50%,
+      var(--Disabled-Controller-Status-Text) 50%
+   );
+   background-clip: text;
+   white-space: pre-wrap;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   content: "Changed or Enabled\A Disabled in general settings";
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_SteamInputStatusGrid_3lj3- {
+   column-gap: var(--Controller-Table-Column-Gap) !important;
+   row-gap: var(--Controller-Table-Row-Gap) !important;
+   margin: var(--Controller-Table-Status-Margins);
+   background: var(--Controller-Table-Status-Background);
+   border-radius: var(--Controller-Table-Status-Background-Corners) !important;
+   div:not(.appproperties_ControllerPip_3QVsc):empty {
+      border-radius: var(--Disabled-Controller-Status-Background-Corners);
+      background: var(--Disabled-Controller-Status-Background) !important;
+      color: var(--Disabled-Controller-Status-Text) !important;
+      &:before {
+         content: "Disabled/Unknown";
+         margin-left: 20px;
+      }
+   }
+   div:nth-child(2n) {
+      margin: var(--Controller-Statuses-Margins);
+      border-radius: var(--Enabled-Controller-Status-Background-Corners);
+      background: var(--Enabled-Controller-Status-Background);
+      * {
+         color: var(--Enabled-Controller-Status-Text) !important;
+      }
+   }
+   div:nth-child(2) {
+      border-radius: var(--First-Controller-Status-Background-Corners) !important;
+   }
+   div:last-child {
+      border-radius: var(--Last-Controller-Status-Background-Corners) !important;
+   }
+}
+
+/* ========================================================================== 
+   END Controller Status */

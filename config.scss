@@ -1,0 +1,151 @@
+:root {
+    /******************************
+    For future reference:
+    [ Skin Default | Steam Default ]
+    [ Skin Default | ... ] (Steam has no default / Not that I know of)
+    [ Both Default ]
+    [ Skin Default | ! ] (Edits globally, not all elements are the same so there's no steam default)
+    ******************************/
+    --disabled: #bf4040; /* [ #bf4040 | ... ] */
+    --disabledbg: #420000; /* [ #420000 | ... ] */
+    --changed: #40b7bf; /* [ #40b7bf | ... ] */
+    --changedbg: #002442; /* [ #002442 | ... ] */
+    --blackest: #000; /* [ #000 | ... ] */
+    --blacker: #0c0c0c; /* [ #0c0c0c | ... ] */
+    --black: #121212; /* [ #121212 | ... ] */
+    --darkgrey: #151515; /* [ #151515 | ... ] */
+    --grey: #1f1f1f; /* [ #1f1f1f | ... ] */
+    --lightgrey: #232323; /* [ #232323 | ... ] */
+    --purple: #6624e2; /* [ #6624e2 | ... ] */
+    --white: #fff; /* [ #fff | ... ] */
+
+    /******************************/
+    /* GLOBAL */
+    /******************************/
+    --Dropdown-Menu-Background: var(--blacker); /* Set to [ var(--blacker) | #373c44 ] */
+    --Dropdown-Item-Background-Hover: var(--purple); /* Set to [ var(--purple) | #3e444d ] */
+    --Dropdown-Menu-Background-Hover: var(--blackest); /* Set to [ var(--blacker) | #3e444d ] */
+    --Dropdown-Border: 1px solid var(--grey); /* Set to [ 1px solid var(--grey) | ! ] */
+    --Dropdown-Border-Hover: 1px solid var(--black); /* Set to [ 1px solid var(--black) | ! ] */
+
+    /* radius cheatsheet: top-left | top-right | bottom-right | bottom-left */
+    /* The whole menu */
+    --Dropdown-Menu-Corners: 10px; /* Set to [ 10px | 0px ] */
+
+    /* Every item inside the menu */
+    --Dropdown-Menu-Item-Child-Corners: 0px; /* Set to [ 0px | 10px ] */
+
+    /* First item in menu */
+    --Dropdown-Menu-Item-First-Item-Corners: 10px 10px 0px 0px; /* Set to [ 10px 10px 0px 0px | 0px ] */
+
+    /* Last item in menu */
+    --Dropdown-Menu-Item-Last-Item-Corners: 0px 0px 10px 10px; /* Set to [ 0px 0px 10px 10px | 0px ] */
+
+    /* Menu item where it's the only one */
+    --Dropdown-Menu-Item-Only-Child-Corners: 10px; /* Set to [ 10px | 0px ] */
+
+    /******************************/
+    /* MISC */
+    /******************************/
+    --hidedlimage: flex !important; /* Set to [ none | flex ] */
+    --hidedlgraph: flex !important; /* Set to [ none | flex ] */
+
+    --CornerSearch: 10px; /* Set to [ 10px | 0px ] */
+    --CornerSearchHover: 10px; /* Set to [ 10px | 0px ] */
+
+    /* Sidebar home and collection button */
+    --Sidebar-Home-Button-Gradient: linear-gradient(150deg, transparent, var(--black));
+    /* Set to linear-gradient([ 150deg, transparent, var(--black) | to bottom, #2d333c 0%, #24282f 20% ]); */
+    --Sidebar-Home-Button-Steam-Logo-Gradient: linear-gradient(to right, #0e0e0e33 30%, black 80%);
+    /* Set to [ linear-gradient(to right, #0e0e0e33 30%, black 80%) ] */
+    --Sidebar-Home-Button-Steam-Logo: var(--blackest); /* Set to [ var(--blackest) | #ffffff0d ] */
+    --Sidebar-Home-Button-Border: 1px solid transparent; /* Set to [ 1px solid transparent ] */
+    --Sidebar-Home-Button-Border-Hover: 1px solid var(--purple); /* Set to [ 1px solid var(--purple) | 1px solid transparent ] */
+
+    /******************************/
+    /* RIGHT CLICK MENU */
+    /******************************/
+    /*******************************************************************
+    radius cheatsheet: top-left | top-right | bottom-right | bottom-left
+    *******************************************************************/
+
+    /* The whole menu's corners */
+    --Context-Menu-Corners: 15px; /* Set to [ 0px | 10px ] */
+    --Context-Menu-Gradient: radial-gradient(
+        ellipse farthest-corner at 50% 0%,
+        var(--blackest) 0%,
+        var(--blacker) 50%,
+        var(--black) 100%
+    );
+    /* Set to radial-gradient([ ellipse farthest-corner at 50% 0%, var(--blackest) 0%, var(--blacker) 50%, var(--black) 100% | ellipse farthest-corner at 50% 0%, #3c4047 0%, #3c4047 50%, #33363d 100% 
+    ]); */
+
+    /* Every item inside the menu */
+    --Context-Menu-Item-Child-Corners: 0px; /* Set to [ 0px | 10px ] */
+
+    /* First item in menu */
+    --Context-Menu-Item-First-Item-Corners: 10px 10px 0px 0px; /* Set to [ 10px 10px 0px 0px | 0px ] */
+
+    /* Last item in menu */
+    --Context-Menu-Item-Last-Item-Corners: 0px 0px 10px 10px; /* Set to [ 0px 0px 10px 10px | 0px ] */
+
+    /* Menu item where it's the only one */
+    --Context-Menu-Item-Only-Child-Corners: 10px; /* Set to [ 10px | 0px ] */
+
+    --Context-Menu-Item-Hover-Background: #363636; /* Set to [ #363636 | #5a6069 ] */
+    --Context-Menu-Item-Background: transparent; /* Set to [ var(--black) | transparent ]*/
+    --Context-Menu-Item-Text: #fff; /* Set to [ #fff | #9ca4a7 ]*/
+    --Context-Menu-Item-Text-Hover: #fff; /* Set to [ #fff | #b8c5c9 ]*/
+    --Context-Menu-Item-Text-Play-Hover: #fff; /* Set to [ #fff | #b8c5c9 ]*/
+    --Context-Menu-Item-Text-Install-Hover: #fff; /* Set to [ #fff | #b8c5c9 ]*/
+
+    /******************************/
+    /* GAME PROPERTIES MENU */
+    /******************************/
+    --Properties-Sidebar-Background-Color: #00000050; /* Set to [ #00000050 | #2a2d34 ] No need to change, this will always be darker */
+    --Properties-Background-Color: var(
+        --darkgrey
+    ); /* Set to [ var(--darkgrey) | radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%),#25282e; ] */
+    --DLCs-Table-Text-Background: var(--grey); /* Set to [ var(--grey) | #3d4450 ] */
+    --CheckBox-Background: var(--blacker); /* Set to [ var(--blacker) | #5d637080 ] */
+    --CheckBox-Background-Hover: var(--purple); /* Set to [ var(--purple) | #5d637080 ] */
+    --Button-Background: var(--blacker); /* Set to [ var(--blacker) | var(--black) ] */
+    --Button-Background-Hover: var(--purple); /* Set to [ var(--blacker) | var(--black) ] */
+    --Text-Input-Background: var(--blacker); /* Set to [ var(--blacker) | var(--black) ] */
+    --Text-Input-Background-Hover: var(--purple); /* Set to [ var(--blacker) | var(--black) ] */
+    --Dropdown-Button-Background: var(--blacker); /* Set to [ var(--blacker) | var(--black) ] */
+    --Dropdown-Button-Background-Hover: var(--purple); /* Set to [ var(--blacker) | var(--black) ] */
+
+    /******************************/
+    /* CONTROLLER STATUSES TABLE */
+    /******************************/
+    --Controller-Table-Status-Background: var(--blacker); /* Set to [ var(--blacker) | #5d637033 ] */
+
+    /*******************************************************************
+    radius cheatsheet: top-left | top-right | bottom-right | bottom-left
+    *******************************************************************/
+    /* First item in table */
+    --Controller-Table-Status-Background-Corners: 10px;
+    /* Set to [ 10px | 0px ] */
+    /* First item in table */
+    --First-Controller-Status-Background-Corners: 10px 10px 0px 0px;
+    /* Set to [ 10px 10px 0px 0px | ... ] */
+    /* Last item in table */
+    --Last-Controller-Status-Background-Corners: 0px 0px 10px 10px;
+    /* Set to [ 0px 0px 10px 10px | ... ] */
+
+    /*******************************************************************
+    radius cheatsheet: top | right | bottom | left
+    *******************************************************************/
+    --Controller-Table-Status-Margins: 5px 200px 0px 20px; /* Set to [ 0px 250px 0px 20px | 0px 0px 0px 0px ] */
+    --Controller-Statuses-Margins: 0px 0px 0px 20px; /* Set to [ 0px 250px 0px 20px | 0px 0px 0px 0px ] */
+    --Controller-Table-Column-Gap: 0px; /* Set to [ 0px | 20px ] */
+    --Controller-Table-Row-Gap: 0px; /* Set to [ 0px | 5px ] */
+
+    --Disabled-Controller-Status-Text: var(--disabled); /* Set to [ var(--disabled) | transparent ] */
+    --Disabled-Controller-Status-Background: var(--disabledbg); /* Set to [ var(--disabled) | transparent ] */
+    --Disabled-Controller-Status-Background-Corners: 0px; /* Set to [ 0px ] */
+    --Enabled-Controller-Status-Text: var(--changed); /* Set to [ var(--changed) | #fff ] */
+    --Enabled-Controller-Status-Background: var(--changedbg); /* Set to [ var(--changedbg) | transparent ] */
+    --Enabled-Controller-Status-Background-Corners: 0px; /* Set to [ 0px ] */
+}

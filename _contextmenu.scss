@@ -1,0 +1,59 @@
+/* Context menu */
+.contextmenu_contextMenu_LQkrb {
+   background: var(--Context-Menu-Gradient) !important;
+   border-radius: var(--Context-Menu-Corners) !important;
+}
+
+.contextmenu_contextMenuItem_pFo3k {
+   border: none !important;
+   border-radius: var(--Context-Menu-Item-Child-Corners) !important;
+   color: var(--Context-Menu-Item-Text);
+   background: var(--Context-Menu-Item-Background);
+   &:first-child {
+      border-radius: var(--Context-Menu-Item-First-Item-Corners) !important;
+   }
+   &:last-child {
+      border-radius: var(--Context-Menu-Item-Last-Item-Corners) !important;
+   }
+   &:only-child {
+      border-radius: var(--Context-Menu-Item-Only-Child-Corners) !important;
+   }
+}
+
+.contextmenu_contextMenuItem_pFo3k:hover,
+.contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU {
+   color: var(--Context-Menu-Item-Text-Hover);
+   background: var(--Context-Menu-Item-Hover-Background);
+}
+
+/* Context menu play, install, etc. */
+.library_ContextMenuAction_Z5iAX.Stream,
+.library_ContextMenuAction_Z5iAX.Connect,
+.library_ContextMenuAction_Z5iAX.Launch,
+.library_ContextMenuAction_Z5iAX.PlayMusic,
+.library_ContextMenuAction_Z5iAX.Play {
+   background: linear-gradient(
+      to right,
+      rgba(112, 214, 29, var(--gradient-opacity)) 0%,
+      rgba(1, 167, 92, var(--gradient-opacity)) 160%
+   ) !important;
+   color: var(--Context-Menu-Item-Text-Play-Hover);
+}
+
+.library_ContextMenuAction_Z5iAX.Download,
+.library_ContextMenuAction_Z5iAX.Update,
+.library_ContextMenuAction_Z5iAX.PreLoad,
+.library_ContextMenuAction_Z5iAX.Resume,
+.library_ContextMenuAction_Z5iAX.Pause,
+.library_ContextMenuAction_Z5iAX.BorrowApp,
+.library_ContextMenuAction_Z5iAX.Stop,
+.library_ContextMenuAction_Z5iAX.Cancel,
+.library_ContextMenuAction_Z5iAX.Install,
+.library_ContextMenuAction_Z5iAX.PurchaseApp {
+   background: linear-gradient(
+      to right,
+      rgba(71, 191, 255, var(--gradient-opacity)) 0%,
+      rgba(26, 67, 192, var(--gradient-opacity)) 160%
+   ) !important;
+   color: var(--Context-Menu-Item-Text-Install-Hover);
+}

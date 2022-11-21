@@ -1,0 +1,8 @@
+// Styles text inputs
+.appproperties_AppProperties_1FyBL .DialogInputLabelGroup .Panel {
+   background: var(--Dropdown-Button-Background) !important;
+   transition: all 0.2s ease-in-out;
+   &:hover {
+      background: var(--Dropdown-Button-Background-Hover) !important;
+   }
+}

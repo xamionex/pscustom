@@ -1,0 +1,8 @@
+// Styles text inputs
+.appproperties_AppProperties_1FyBL .DialogTextInputBase {
+   background: var(--Text-Input-Background) !important;
+   transition: all 0.2s ease-in-out;
+   &:hover {
+      background: var(--Text-Input-Background-Hover) !important;
+   }
+}

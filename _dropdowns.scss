@@ -1,0 +1,32 @@
+// Styles dropdown menus
+.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4-
+   ._DialogInputContainer,
+.dropdown_DialogDropDownMenu_1tiuY,
+.dropdown_DialogDropDownMenu_Item_1R-DV {
+   transition: all 0.2s ease-in-out;
+   background: var(--Dropdown-Menu-Background) !important;
+   &:not(.dropdown_DialogDropDownMenu_Item_1R-DV) {
+      border: var(--Dropdown-Border);
+      padding: 3px !important;
+      border-radius: var(--Dropdown-Menu-Corners) !important;
+      &:hover {
+         border: var(--Dropdown-Border-Hover);
+         background: var(--Dropdown-Menu-Background-Hover) !important;
+      }
+   }
+}
+
+.dropdown_DialogDropDownMenu_Item_1R-DV {
+   &:first-child {
+      border-radius: var(--Dropdown-Menu-Item-First-Item-Corners) !important;
+   }
+   &:last-child {
+      border-radius: var(--Dropdown-Menu-Item-Last-Item-Corners) !important;
+   }
+   &:only-child {
+      border-radius: var(--Dropdown-Menu-Item-Only-Child-Corners) !important;
+   }
+   &:hover {
+      background: var(--Dropdown-Item-Background-Hover) !important;
+   }
+}

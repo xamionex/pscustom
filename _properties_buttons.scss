@@ -1,0 +1,7 @@
+// Styles dropdown menus
+.appproperties_AppProperties_1FyBL button.DialogButton {
+   background-color: var(--Button-Background) !important;
+   &:hover {
+      background: var(--Button-Background-Hover) !important;
+   }
+}

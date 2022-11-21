@@ -1,0 +1,22 @@
+/* **************************************** */
+/* https://www.github.com/xamionex/pscustom */
+/* **************************************** */
+
+@import "./default_config";
+
+/* Open this file to config colors and more */
+@import "./config";
+
+/* Interactibles */
+@import "./contextmenu"; /* Context menu */
+@import "./dropdowns"; /* Styles dropdown menus */
+@import "./properties_dropdown_buttons"; /* Styles dropdown menus */
+@import "./properties_buttons"; /* Styles buttons */
+@import "./properties_checkboxes"; /* Styles checkboxes */
+@import "./properties_text_inputs"; /* Text inputs */
+
+/* Pages */
+@import "./gamepage"; /* Game Page > Info button, there's a shadow that appears if using auto-open */
+@import "./sidebar_homeandsearch"; /* Override old glory's homeandsearch (comment to remove override) */
+@import "./properties_background"; /* Game Properties Backgrounds */
+@import "./properties_controller_status"; /* Game Properties Controller Status */
