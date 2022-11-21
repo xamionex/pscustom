@@ -10,8 +10,8 @@
     --disabledbg: #420000; /* [ #420000 | ... ] */
     --changed: #40b7bf; /* [ #40b7bf | ... ] */
     --changedbg: #002442; /* [ #002442 | ... ] */
-    --blackest: #000; /* [ #000 | ... ] */
-    --blacker: #0c0c0c; /* [ #0c0c0c | ... ] */
+    --pureblack: #000; /* [ #000 | ... ] */
+    --darkerblack: #0c0c0c; /* [ #0c0c0c | ... ] */
     --black: #121212; /* [ #121212 | ... ] */
     --darkgrey: #151515; /* [ #151515 | ... ] */
     --grey: #1f1f1f; /* [ #1f1f1f | ... ] */
@@ -22,9 +22,9 @@
     /******************************/
     /* GLOBAL */
     /******************************/
-    --Dropdown-Menu-Background: var(--blacker); /* Set to [ var(--blacker) | #373c44 ] */
+    --Dropdown-Menu-Background: var(--darkerblack); /* Set to [ var(--darkerblack) | #373c44 ] */
     --Dropdown-Item-Background-Hover: var(--purple); /* Set to [ var(--purple) | #3e444d ] */
-    --Dropdown-Menu-Background-Hover: var(--blackest); /* Set to [ var(--blacker) | #3e444d ] */
+    --Dropdown-Menu-Background-Hover: var(--pureblack); /* Set to [ var(--darkerblack) | #3e444d ] */
     --Dropdown-Border: 1px solid var(--grey); /* Set to [ 1px solid var(--grey) | ! ] */
     --Dropdown-Border-Hover: 1px solid var(--black); /* Set to [ 1px solid var(--black) | ! ] */
 
@@ -47,6 +47,9 @@
     /******************************/
     /* MISC */
     /******************************/
+    --PlayOrInstall-Border-Corners: 50%; /* Set to [ 50% | 0px ] */
+    --PlayOrInstall-Border-Outside: 2px dotted var(--darkerblack); /* Set to [ 3px dotted var(--darkerblack) | none ] */
+    --PlayOrInstall-Border-Inside: inset 0 0 0 3px var(--darkerblack); /* Set to [ inset 0 0 0 3px var(--darkerblack) | none ] */
     --hidedlimage: flex !important; /* Set to [ none | flex ] */
     --hidedlgraph: flex !important; /* Set to [ none | flex ] */
 
@@ -58,7 +61,7 @@
     /* Set to linear-gradient([ 150deg, transparent, var(--black) | to bottom, #2d333c 0%, #24282f 20% ]); */
     --Sidebar-Home-Button-Steam-Logo-Gradient: linear-gradient(to right, #0e0e0e33 30%, black 80%);
     /* Set to [ linear-gradient(to right, #0e0e0e33 30%, black 80%) ] */
-    --Sidebar-Home-Button-Steam-Logo: var(--blackest); /* Set to [ var(--blackest) | #ffffff0d ] */
+    --Sidebar-Home-Button-Steam-Logo: var(--pureblack); /* Set to [ var(--pureblack) | #ffffff0d ] */
     --Sidebar-Home-Button-Border: 1px solid transparent; /* Set to [ 1px solid transparent ] */
     --Sidebar-Home-Button-Border-Hover: 1px solid var(--purple); /* Set to [ 1px solid var(--purple) | 1px solid transparent ] */
 
@@ -73,11 +76,11 @@
     --Context-Menu-Corners: 15px; /* Set to [ 0px | 10px ] */
     --Context-Menu-Gradient: radial-gradient(
         ellipse farthest-corner at 50% 0%,
-        var(--blackest) 0%,
-        var(--blacker) 50%,
+        var(--pureblack) 0%,
+        var(--darkerblack) 50%,
         var(--black) 100%
     );
-    /* Set to radial-gradient([ ellipse farthest-corner at 50% 0%, var(--blackest) 0%, var(--blacker) 50%, var(--black) 100% | ellipse farthest-corner at 50% 0%, #3c4047 0%, #3c4047 50%, #33363d 100% 
+    /* Set to radial-gradient([ ellipse farthest-corner at 50% 0%, var(--pureblack) 0%, var(--darkerblack) 50%, var(--black) 100% | ellipse farthest-corner at 50% 0%, #3c4047 0%, #3c4047 50%, #33363d 100% 
     ]); */
 
     /* Every item inside the menu */
@@ -107,19 +110,19 @@
         --darkgrey
     ); /* Set to [ var(--darkgrey) | radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%),#25282e; ] */
     --DLCs-Table-Text-Background: var(--grey); /* Set to [ var(--grey) | #3d4450 ] */
-    --CheckBox-Background: var(--blacker); /* Set to [ var(--blacker) | #5d637080 ] */
+    --CheckBox-Background: var(--darkerblack); /* Set to [ var(--darkerblack) | #5d637080 ] */
     --CheckBox-Background-Hover: var(--purple); /* Set to [ var(--purple) | #5d637080 ] */
-    --Button-Background: var(--blacker); /* Set to [ var(--blacker) | var(--black) ] */
-    --Button-Background-Hover: var(--purple); /* Set to [ var(--blacker) | var(--black) ] */
-    --Text-Input-Background: var(--blacker); /* Set to [ var(--blacker) | var(--black) ] */
-    --Text-Input-Background-Hover: var(--purple); /* Set to [ var(--blacker) | var(--black) ] */
-    --Dropdown-Button-Background: var(--blacker); /* Set to [ var(--blacker) | var(--black) ] */
-    --Dropdown-Button-Background-Hover: var(--purple); /* Set to [ var(--blacker) | var(--black) ] */
+    --Button-Background: var(--darkerblack); /* Set to [ var(--darkerblack) | var(--black) ] */
+    --Button-Background-Hover: var(--purple); /* Set to [ var(--darkerblack) | var(--black) ] */
+    --Text-Input-Background: var(--darkerblack); /* Set to [ var(--darkerblack) | var(--black) ] */
+    --Text-Input-Background-Hover: var(--purple); /* Set to [ var(--darkerblack) | var(--black) ] */
+    --Dropdown-Button-Background: var(--darkerblack); /* Set to [ var(--darkerblack) | var(--black) ] */
+    --Dropdown-Button-Background-Hover: var(--purple); /* Set to [ var(--darkerblack) | var(--black) ] */
 
     /******************************/
     /* CONTROLLER STATUSES TABLE */
     /******************************/
-    --Controller-Table-Status-Background: var(--blacker); /* Set to [ var(--blacker) | #5d637033 ] */
+    --Controller-Table-Status-Background: var(--darkerblack); /* Set to [ var(--darkerblack) | #5d637033 ] */
 
     /*******************************************************************
     radius cheatsheet: top-left | top-right | bottom-right | bottom-left
