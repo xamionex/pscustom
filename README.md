@@ -5,7 +5,7 @@
 - Clone .zip from master
 - Extract to your `OldGlory/scss` folder
   - Open `_custom_module2.scss` in the same folder
-  - Add `@import "./pscustom/main`
+  - Add `@import "./pscustom/main"`
   - Save and exit
 - Click install on OldGlory
 
