@@ -60,5 +60,14 @@
    border-radius: var(--CornerSearchHover) !important;
 }
 
+// Filter input text being black when typing
+.appfilterpane_Container_170Np
+   .appfilterpane_FilterArea_1ennW
+   .appfilterpane_FilterBucket_1axoi
+   .DialogInput_Wrapper
+   .DialogTextInputBase.Focusable:focus {
+   color: #fff;
+}
+
 /* ========================================================================== 
    END HomeAndSearch */
