@@ -1,6 +1,6 @@
-## Built for [Old Glory](https://github.com/Jonius7/SteamUI-OldGlory/) with theme set to [Steam-Library](https://github.com/AikoMidori/steam-library)
+# Built for [Old Glory](https://github.com/Jonius7/SteamUI-OldGlory/) with theme set to [Steam-Library](https://github.com/AikoMidori/steam-library)
 
-### How to install
+## How to install
 
 - Clone .zip from master
 - Extract to your `OldGlory/scss` folder
