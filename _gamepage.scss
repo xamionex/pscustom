@@ -1,9 +1,18 @@
 // Game Page > Info button, there's a shadow that appears if using auto-open JS
 .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ .appdetailsgameinfocontainer_GameInfoShadow_1FXWy {
-   background-color: transparent !important;
+	background-color: transparent !important;
 }
 
 // Post game summary going over achievements/friends
 .boxcarousel_BoxCarousel_3fiHs.spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
-   width: 108% !important;
+	width: 108% !important;
+}
+
+// Game hero and logo size increase
+.appdetails_Header_2gZXh.appdetails_HeaderLoaded_tXlLv {
+	min-height: 350px;
+	margin-bottom: 0px;
+}
+.sharedappdetailsheader_TopCapsule_2meE3.sharedappdetailsheader_TopCapsule_2meE3 {
+	max-height: 350px;
 }
