@@ -1,4 +1,4 @@
-# MOSTLY BROKEN. [VISIT MY SITE FOR NEW SKINS](https://steamskins.pages.dev/)
+# PROBABLY BROKEN. [VISIT MY SITE FOR NEW SKINS](https://steamskins.pages.dev/)
 
 # Built for [Old Glory](https://github.com/Jonius7/SteamUI-OldGlory/) with theme set to [Steam-Library](https://github.com/AikoMidori/steam-library)
 
